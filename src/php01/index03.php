@@ -1,8 +1,8 @@
 <?php
-$a = 20;
-$b = 5;
+$a = 7;
 
-
-echo ($a > $b;)
-echo "<br />";
-echo $c;
+if ($a === 5) {
+    echo "\$aは5です";
+} else {
+    echo "\$aは5以外です";
+}
