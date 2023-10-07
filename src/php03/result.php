@@ -50,11 +50,15 @@ $comparison = searchCityTime($city);
                 </div>
                 <div class="result-card">
                     <div class="result-card__img-wrapper">
-                        <img class="result-card__img" src="img/national_flag_img/<?php echo $comparison['img'] ?>" alt="国旗">
+                        <img class="result-card__img" src="img/<?php echo $comparison['img'] ?>" alt="国旗">
                     </div>
                     <div class="result-card__body">
-                        <p class="result-card__city"></p>
-                        <p class="result-card__time"></p>
+                        <p class="result-card__city">
+                            <?php echo $comparison['name'] ?>
+                        </p>
+                        <p class="result-card__time">
+                            <?php echo $comparison['time'] ?>
+                        </p>
                     </div>
                 </div>
             </div>
