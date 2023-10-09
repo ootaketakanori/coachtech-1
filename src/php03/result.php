@@ -21,6 +21,7 @@ $comparison = searchCityTime($city);
     <link rel="stylesheet" href="css/sanitize.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/result.css">
 </head>
 
 <body>
@@ -50,7 +51,7 @@ $comparison = searchCityTime($city);
                 </div>
                 <div class="result-card">
                     <div class="result-card__img-wrapper">
-                        <img class="result-card__img" src="img/<?php echo $comparison['img'] ?>" alt="国旗">
+                        <img class="result-card__img" src="img/national_flag_img/<?php echo $comparison['img'] ?>" alt="国旗">
                     </div>
                     <div class="result-card__body">
                         <p class="result-card__city">

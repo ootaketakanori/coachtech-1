@@ -1,7 +1,7 @@
 <?php
 require_once('config/status_codes.php');
 $random_numbers = array_rand($status_codes, 4);
-foreach ($random_indexes as $index) {
+foreach ($random_numbers as $index) {
     $options[] = $status_codes[$index];
 }
 $qustion = $options[mt_rand(0, 3)];
